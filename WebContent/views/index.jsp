@@ -7,6 +7,6 @@
 <title>Initial Page</title>
 </head>
 <body>
-	Message received from controller: ${mensagem}
+	Message received from controller: ${message}
 </body>
 </html>

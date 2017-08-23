@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class InitialController {
 	@RequestMapping("/")
 	public String initialPage(Model m){
-		m.addAttribute("mensagem", "seja bem vindo");
+		m.addAttribute("message", "welcome");
 		
 		return "index";
 	}
